@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3FF96291C71CB200091B6BE /* MatchScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF96271C71CB200091B6BE /* MatchScheduleViewController.m */; };
+		C3FF962A1C71CB200091B6BE /* MatchScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3FF96281C71CB200091B6BE /* MatchScheduleViewController.xib */; };
 		F242FDD21C6E21300060DF31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD11C6E21300060DF31 /* main.m */; };
 		F242FDD51C6E21300060DF31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD41C6E21300060DF31 /* AppDelegate.m */; };
 		F242FDD81C6E21300060DF31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD71C6E21300060DF31 /* ViewController.m */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3FF96261C71CB200091B6BE /* MatchScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchScheduleViewController.h; sourceTree = "<group>"; };
+		C3FF96271C71CB200091B6BE /* MatchScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchScheduleViewController.m; sourceTree = "<group>"; };
+		C3FF96281C71CB200091B6BE /* MatchScheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatchScheduleViewController.xib; sourceTree = "<group>"; };
 		F242FDCD1C6E212F0060DF31 /* SportsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F242FDD11C6E21300060DF31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F242FDD31C6E21300060DF31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +85,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3FF96251C71CADC0091B6BE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C3FF96261C71CB200091B6BE /* MatchScheduleViewController.h */,
+				C3FF96271C71CB200091B6BE /* MatchScheduleViewController.m */,
+				C3FF96281C71CB200091B6BE /* MatchScheduleViewController.xib */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		F242FDC41C6E212F0060DF31 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +118,7 @@
 		F242FDCF1C6E21300060DF31 /* SportsApp */ = {
 			isa = PBXGroup;
 			children = (
+				C3FF96251C71CADC0091B6BE /* New Group */,
 				F242FDD31C6E21300060DF31 /* AppDelegate.h */,
 				F242FDD41C6E21300060DF31 /* AppDelegate.m */,
 				F242FDD61C6E21300060DF31 /* ViewController.h */,
@@ -246,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F242FDE31C6E21300060DF31 /* LaunchScreen.storyboard in Resources */,
+				C3FF962A1C71CB200091B6BE /* MatchScheduleViewController.xib in Resources */,
 				F242FDE01C6E21300060DF31 /* Assets.xcassets in Resources */,
 				F242FDDB1C6E21300060DF31 /* Main.storyboard in Resources */,
 			);
@@ -276,6 +293,7 @@
 				F242FDD51C6E21300060DF31 /* AppDelegate.m in Sources */,
 				F242FDDE1C6E21300060DF31 /* SportsApp.xcdatamodeld in Sources */,
 				F242FDD21C6E21300060DF31 /* main.m in Sources */,
+				C3FF96291C71CB200091B6BE /* MatchScheduleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +517,7 @@
 				F242FDFF1C6E21300060DF31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F242FE001C6E21300060DF31 /* Build configuration list for PBXNativeTarget "SportsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +526,7 @@
 				F242FE021C6E21300060DF31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F242FE031C6E21300060DF31 /* Build configuration list for PBXNativeTarget "SportsAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +535,7 @@
 				F242FE051C6E21300060DF31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
