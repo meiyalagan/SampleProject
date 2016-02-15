@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C30DB5D91C72028B00E0D53C /* OrganizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30DB5D81C72028B00E0D53C /* OrganizerViewController.m */; };
+		C30DB5DB1C7202A500E0D53C /* Organizer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30DB5DA1C7202A500E0D53C /* Organizer.storyboard */; };
 		C3FF96291C71CB200091B6BE /* MatchScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF96271C71CB200091B6BE /* MatchScheduleViewController.m */; };
 		C3FF962A1C71CB200091B6BE /* MatchScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3FF96281C71CB200091B6BE /* MatchScheduleViewController.xib */; };
 		F242FDD21C6E21300060DF31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD11C6E21300060DF31 /* main.m */; };
@@ -38,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C30DB5D71C72028B00E0D53C /* OrganizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizerViewController.h; sourceTree = "<group>"; };
+		C30DB5D81C72028B00E0D53C /* OrganizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganizerViewController.m; sourceTree = "<group>"; };
+		C30DB5DA1C7202A500E0D53C /* Organizer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Organizer.storyboard; sourceTree = "<group>"; };
 		C3FF96261C71CB200091B6BE /* MatchScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchScheduleViewController.h; sourceTree = "<group>"; };
 		C3FF96271C71CB200091B6BE /* MatchScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchScheduleViewController.m; sourceTree = "<group>"; };
 		C3FF96281C71CB200091B6BE /* MatchScheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatchScheduleViewController.xib; sourceTree = "<group>"; };
@@ -85,6 +90,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C30DB5D11C72019200E0D53C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C30DB5D51C72022D00E0D53C /* Organizer */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		C30DB5D21C7201A400E0D53C /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ModelClasses;
+			sourceTree = "<group>";
+		};
+		C30DB5D31C7201B300E0D53C /* CustomUIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomUIView;
+			sourceTree = "<group>";
+		};
+		C30DB5D41C7201D700E0D53C /* ServiceCallClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ServiceCallClasses;
+			sourceTree = "<group>";
+		};
+		C30DB5D51C72022D00E0D53C /* Organizer */ = {
+			isa = PBXGroup;
+			children = (
+				C30DB5D71C72028B00E0D53C /* OrganizerViewController.h */,
+				C30DB5D81C72028B00E0D53C /* OrganizerViewController.m */,
+				C30DB5DA1C7202A500E0D53C /* Organizer.storyboard */,
+			);
+			name = Organizer;
+			sourceTree = "<group>";
+		};
 		C3FF96251C71CADC0091B6BE /* New Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +162,10 @@
 		F242FDCF1C6E21300060DF31 /* SportsApp */ = {
 			isa = PBXGroup;
 			children = (
+				C30DB5D41C7201D700E0D53C /* ServiceCallClasses */,
+				C30DB5D31C7201B300E0D53C /* CustomUIView */,
+				C30DB5D21C7201A400E0D53C /* ModelClasses */,
+				C30DB5D11C72019200E0D53C /* ViewController */,
 				C3FF96251C71CADC0091B6BE /* New Group */,
 				F242FDD31C6E21300060DF31 /* AppDelegate.h */,
 				F242FDD41C6E21300060DF31 /* AppDelegate.m */,
@@ -262,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F242FDE31C6E21300060DF31 /* LaunchScreen.storyboard in Resources */,
+				C30DB5DB1C7202A500E0D53C /* Organizer.storyboard in Resources */,
 				C3FF962A1C71CB200091B6BE /* MatchScheduleViewController.xib in Resources */,
 				F242FDE01C6E21300060DF31 /* Assets.xcassets in Resources */,
 				F242FDDB1C6E21300060DF31 /* Main.storyboard in Resources */,
@@ -293,6 +342,7 @@
 				F242FDD51C6E21300060DF31 /* AppDelegate.m in Sources */,
 				F242FDDE1C6E21300060DF31 /* SportsApp.xcdatamodeld in Sources */,
 				F242FDD21C6E21300060DF31 /* main.m in Sources */,
+				C30DB5D91C72028B00E0D53C /* OrganizerViewController.m in Sources */,
 				C3FF96291C71CB200091B6BE /* MatchScheduleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
