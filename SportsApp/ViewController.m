@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"\n\n hai Meiy");
+    NSLog(@"\n\n hai SARAATH");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
