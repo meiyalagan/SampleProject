@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NetViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
+//    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    _viewObj= [[NetViewController alloc] initWithNibName:@"NetViewController" bundle:nil];
+//    _navObj = [[UINavigationController alloc] initWithRootViewController:_viewObj];
+//    [_viewObj.view setBackgroundColor:[UIColor redColor]];
+//    _window.rootViewController=_navObj;
+//    [_window makeKeyAndVisible];
+    
     return YES;
 }
 

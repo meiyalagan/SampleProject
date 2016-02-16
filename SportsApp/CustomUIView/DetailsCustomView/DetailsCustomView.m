@@ -18,4 +18,30 @@
 }
 */
 
+
+
+
+- (id)initWithCoder:(NSCoder *)aDecoder{
+    
+    self = [super initWithCoder:aDecoder];
+    
+    if (self) {
+        
+        [[[NSBundle mainBundle] loadNibNamed:@"DetailsCustomView" owner:self options:nil] lastObject];
+        [self addSubview:self.view];
+    }
+    return self;
+}
+
+
+- (IBAction)dateLeftBtnAction:(id)sender {
+    
+}
+- (IBAction)dateRightBtnAction:(id)sender {
+    
+}
+- (IBAction)datePickerBtnAction:(id)sender {
+    
+}
+
 @end

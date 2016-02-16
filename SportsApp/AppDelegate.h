@@ -21,5 +21,8 @@
 - (NSURL *)applicationDocumentsDirectory;
 
 
+
+//@property (strong, nonatomic)  UIViewController *viewObj;
+//@property (strong, nonatomic) UINavigationController *navObj;
 @end
 

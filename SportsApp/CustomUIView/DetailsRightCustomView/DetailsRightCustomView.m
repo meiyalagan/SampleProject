@@ -17,5 +17,9 @@
     // Drawing code
 }
 */
+- (IBAction)navigateBtnAction:(id)sender {
+}
+- (IBAction)videoBtnAction:(id)sender {
+}
 
 @end
