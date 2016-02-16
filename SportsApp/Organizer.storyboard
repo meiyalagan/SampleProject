@@ -229,6 +229,10 @@
         <scene sceneID="kyP-W3-bTH">
             <objects>
                 <viewController id="Hhc-mg-PIB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gpO-Ne-4XC"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Zx-PE-maa"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fgg-pi-mcg">
                         <rect key="frame" x="0.0" y="0.0" width="328" height="156"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -277,20 +281,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hQt-g8-jX1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="328" y="749"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Flb-NM-c7S">
-            <objects>
-                <viewController id="9MZ-LI-5vG" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="CE5-ug-695">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zjp-UP-kpp" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1144" y="520.5"/>
         </scene>
     </scenes>
 </document>
