@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9531"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NetViewController">
@@ -32,7 +32,35 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7d0-jQ-IZ4">
                     <rect key="frame" x="-1" y="538" width="321" height="30"/>
-                    <color key="backgroundColor" red="1" green="0.99178584145559823" blue="0.25350822091166758" alpha="1" colorSpace="calibratedRGB"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X79-98-8Vj">
+                            <rect key="frame" x="8" y="4" width="187" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="187" id="adC-Mx-DcX"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TlZ-Mg-fAb">
+                            <rect key="frame" x="203" y="2" width="117" height="26"/>
+                            <color key="backgroundColor" red="1" green="0.99178584150000004" blue="0.25350822090000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="26" id="KSI-71-ilu"/>
+                                <constraint firstAttribute="width" constant="117" id="rdH-Xe-1Nr"/>
+                            </constraints>
+                            <state key="normal" title="Book Now"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.099286632089999993" green="0.08234986171" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="TlZ-Mg-fAb" firstAttribute="top" secondItem="7d0-jQ-IZ4" secondAttribute="top" constant="2" id="1nB-XT-l3G"/>
+                        <constraint firstAttribute="bottom" secondItem="X79-98-8Vj" secondAttribute="bottom" constant="5" id="62v-jg-VC4"/>
+                        <constraint firstAttribute="bottom" secondItem="TlZ-Mg-fAb" secondAttribute="bottom" constant="2" id="9Qe-yh-LYj"/>
+                        <constraint firstItem="X79-98-8Vj" firstAttribute="leading" secondItem="7d0-jQ-IZ4" secondAttribute="leading" constant="8" id="BBf-KW-3np"/>
+                        <constraint firstItem="X79-98-8Vj" firstAttribute="top" secondItem="7d0-jQ-IZ4" secondAttribute="top" constant="4" id="EfY-uX-mHM"/>
+                        <constraint firstAttribute="trailing" secondItem="TlZ-Mg-fAb" secondAttribute="trailing" constant="1" id="nYz-kV-TEt"/>
+                    </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
