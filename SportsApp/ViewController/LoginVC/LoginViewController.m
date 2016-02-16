@@ -12,7 +12,6 @@
 @end
 
 @implementation LoginViewController
-@synthesize Segment;
 - (void)viewDidLoad {
     [super viewDidLoad];
     	NSLog(@"FirstViewController - viewDidLoad");

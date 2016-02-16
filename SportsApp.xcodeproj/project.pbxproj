@@ -19,6 +19,7 @@
 		0310D2601C73252D00420462 /* SliderCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D25E1C73252D00420462 /* SliderCustomView.m */; };
 		0310D2611C73252D00420462 /* SliderCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0310D25F1C73252D00420462 /* SliderCustomView.xib */; };
 		0310D2641C7325A600420462 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D2631C7325A600420462 /* ContainerViewController.m */; };
+<<<<<<< Updated upstream
 		C30DB6081C732B2C00E0D53C /* DetailsCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C30DB6071C732B2C00E0D53C /* DetailsCustomView.m */; };
 		C30DB60B1C732B4E00E0D53C /* DetailsRightCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C30DB60A1C732B4E00E0D53C /* DetailsRightCustomView.m */; };
 		C30DB60D1C732B9400E0D53C /* DetailsCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C30DB60C1C732B9400E0D53C /* DetailsCustomView.xib */; };
@@ -27,6 +28,10 @@
 		C30DB6181C732D6600E0D53C /* NetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30DB6161C732D6600E0D53C /* NetViewController.m */; };
 		C30DB6191C732D6600E0D53C /* NetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C30DB6171C732D6600E0D53C /* NetViewController.xib */; };
 		C30DB61B1C732DA000E0D53C /* GroundViewControllerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30DB61A1C732DA000E0D53C /* GroundViewControllerStoryboard.storyboard */; };
+=======
+		0310D2671C73288500420462 /* GeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D2661C73288500420462 /* GeneralViewController.m */; };
+		0310D26A1C732CB400420462 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D2691C732CB400420462 /* SplashViewController.m */; };
+>>>>>>> Stashed changes
 		F242FDD21C6E21300060DF31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD11C6E21300060DF31 /* main.m */; };
 		F242FDD51C6E21300060DF31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD41C6E21300060DF31 /* AppDelegate.m */; };
 		F242FDD81C6E21300060DF31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD71C6E21300060DF31 /* ViewController.m */; };
@@ -74,6 +79,7 @@
 		0310D25F1C73252D00420462 /* SliderCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderCustomView.xib; sourceTree = "<group>"; };
 		0310D2621C7325A600420462 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
 		0310D2631C7325A600420462 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		C30DB6061C732B2C00E0D53C /* DetailsCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsCustomView.h; sourceTree = "<group>"; };
 		C30DB6071C732B2C00E0D53C /* DetailsCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsCustomView.m; sourceTree = "<group>"; };
 		C30DB6091C732B4E00E0D53C /* DetailsRightCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsRightCustomView.h; sourceTree = "<group>"; };
@@ -86,6 +92,12 @@
 		C30DB6161C732D6600E0D53C /* NetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetViewController.m; sourceTree = "<group>"; };
 		C30DB6171C732D6600E0D53C /* NetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetViewController.xib; sourceTree = "<group>"; };
 		C30DB61A1C732DA000E0D53C /* GroundViewControllerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GroundViewControllerStoryboard.storyboard; sourceTree = "<group>"; };
+=======
+		0310D2651C73288500420462 /* GeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralViewController.h; sourceTree = "<group>"; };
+		0310D2661C73288500420462 /* GeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralViewController.m; sourceTree = "<group>"; };
+		0310D2681C732CB400420462 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		0310D2691C732CB400420462 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		F242FDCD1C6E212F0060DF31 /* SportsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F242FDD11C6E21300060DF31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F242FDD31C6E21300060DF31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -145,6 +157,8 @@
 				0310D2401C7324C400420462 /* MatchScheduleVC */,
 				0310D2441C7324C400420462 /* Organizer */,
 				0310D2481C7324C400420462 /* SignUpVC */,
+				0310D2681C732CB400420462 /* SplashViewController.h */,
+				0310D2691C732CB400420462 /* SplashViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -154,6 +168,8 @@
 			children = (
 				0310D2621C7325A600420462 /* ContainerViewController.h */,
 				0310D2631C7325A600420462 /* ContainerViewController.m */,
+				0310D2651C73288500420462 /* GeneralViewController.h */,
+				0310D2661C73288500420462 /* GeneralViewController.m */,
 			);
 			path = ContainerVC;
 			sourceTree = "<group>";
@@ -485,6 +501,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F242FDD81C6E21300060DF31 /* ViewController.m in Sources */,
+				0310D26A1C732CB400420462 /* SplashViewController.m in Sources */,
+				0310D2671C73288500420462 /* GeneralViewController.m in Sources */,
 				0310D2591C7324FB00420462 /* EmptySegue.m in Sources */,
 				0310D2641C7325A600420462 /* ContainerViewController.m in Sources */,
 				0310D24D1C7324C400420462 /* MatchScheduleViewController.m in Sources */,
