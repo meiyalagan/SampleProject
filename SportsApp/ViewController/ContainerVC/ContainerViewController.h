@@ -1,16 +1,9 @@
-//
-//  ContainerViewController.h
-//  EmbeddedSwapping
-//
-//  Created by Michael Luton on 11/13/12.
-//  Copyright (c) 2012 Sandmoose Software. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
-
-
-@interface ContainerViewController : UIViewController
+#import "GViewController.h"
+@interface ContainerViewController : UIViewController<SegueDelegate>
 
 - (void)swapViewControllers;
-
+@property(weak,nonatomic)NSString *SegueIdentify;
 @end
