@@ -28,7 +28,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+  //  NSLog(@"%s", __PRETTY_FUNCTION__);
 
     // Instead of creating new VCs on each seque we want to hang on to existing
     // instances if we have it. Remove the second condition of the following
@@ -36,11 +36,9 @@
     if ([segue.identifier isEqualToString:SegueIdentifierFirst]) {
         self.firstViewController = segue.destinationViewController;
     }
-
     if ([segue.identifier isEqualToString:SegueIdentifierSecond]) {
         self.secondViewController = segue.destinationViewController;
     }
-
     // If we're going to the first view controller.
     if ([segue.identifier isEqualToString:SegueIdentifierFirst]) {
         // If this is not the first time we're loading this.
@@ -67,7 +65,7 @@
 
 - (void)swapFromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController
 {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+  //  NSLog(@"%s", __PRETTY_FUNCTION__);
 
     toViewController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
 
@@ -83,21 +81,21 @@
 
 - (void)swapViewControllers
 {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+  //  NSLog(@"%s", __PRETTY_FUNCTION__);
 
     if (self.transitionInProgress) {
         return;
     }
-
     self.transitionInProgress = YES;
     self.currentSegueIdentifier = ([self.currentSegueIdentifier isEqualToString:SegueIdentifierFirst]) ? SegueIdentifierSecond : SegueIdentifierFirst;
-    NSLog(@"result:%@",self.currentSegueIdentifier);
-    if (([self.currentSegueIdentifier isEqualToString:SegueIdentifierFirst]) && self.firstViewController) {
+    self.currentSegueIdentifier =[[NSUserDefaults standardUserDefaults] objectForKey:@"Segue"];
+  //  NSLog(@"result:%@",self.currentSegueIdentifier);
+    if (([self.currentSegueIdentifier isEqualToString:@"embedFirst"]) && self.firstViewController) {
         [self swapFromViewController:self.secondViewController toViewController:self.firstViewController];
         return;
     }
     
-    if (([self.currentSegueIdentifier isEqualToString:SegueIdentifierSecond]) && self.secondViewController) {
+    if (([self.currentSegueIdentifier isEqualToString:@"embedSecond"]) && self.secondViewController) {
         [self swapFromViewController:self.firstViewController toViewController:self.secondViewController];
         return;
     }

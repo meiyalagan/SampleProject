@@ -58,6 +58,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="Login" destination="cUI-fY-1Ag" id="eoZ-cd-qa3"/>
+                        <outlet property="SignUp" destination="zYz-LJ-QsI" id="JEn-nP-CVs"/>
+                        <outlet property="view1" destination="fFv-kD-SXb" id="e0T-YI-G7H"/>
+                        <outlet property="view2" destination="YV4-3C-3bd" id="bRN-HW-ogO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>

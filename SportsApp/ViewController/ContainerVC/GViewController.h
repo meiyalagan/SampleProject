@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 @protocol SegueDelegate <NSObject>
-@required
+@optional
 -(void)test:(NSString*)str;
 @end
 @interface GViewController : UIViewController
