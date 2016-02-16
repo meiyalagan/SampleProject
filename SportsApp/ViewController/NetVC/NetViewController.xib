@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9531"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NetViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8we-KZ-qon" customClass="SliderCustomView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QKe-Wi-OJ2" customClass="DetailsCustomView">
+                    <rect key="frame" x="0.0" y="150" width="320" height="418"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wnr-ND-3RQ" customClass="DetailsRightCustomView">
+                    <rect key="frame" x="238" y="150" width="82" height="418"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="82" id="Zfo-ay-1m5"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7d0-jQ-IZ4">
+                    <rect key="frame" x="-1" y="538" width="321" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.99178584145559823" blue="0.25350822091166758" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="8we-KZ-qon" firstAttribute="trailing" secondItem="wnr-ND-3RQ" secondAttribute="trailing" id="1bq-ot-R8K"/>
+                <constraint firstItem="8we-KZ-qon" firstAttribute="centerX" secondItem="7d0-jQ-IZ4" secondAttribute="centerX" id="3Xq-Ag-L5N"/>
+                <constraint firstItem="QKe-Wi-OJ2" firstAttribute="top" secondItem="8we-KZ-qon" secondAttribute="bottom" id="932-Zb-cof"/>
+                <constraint firstItem="8we-KZ-qon" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="94P-nZ-CQE"/>
+                <constraint firstItem="wnr-ND-3RQ" firstAttribute="top" secondItem="8we-KZ-qon" secondAttribute="bottom" id="CxA-P5-XbD"/>
+                <constraint firstAttribute="bottom" secondItem="8we-KZ-qon" secondAttribute="bottom" constant="418" id="FFv-QI-PUe"/>
+                <constraint firstAttribute="bottom" secondItem="wnr-ND-3RQ" secondAttribute="bottom" id="GLt-Pp-QGi"/>
+                <constraint firstItem="8we-KZ-qon" firstAttribute="leading" secondItem="QKe-Wi-OJ2" secondAttribute="leading" id="IPw-fO-wd7"/>
+                <constraint firstAttribute="bottom" secondItem="QKe-Wi-OJ2" secondAttribute="bottom" id="M2M-CV-p9e"/>
+                <constraint firstAttribute="trailing" secondItem="wnr-ND-3RQ" secondAttribute="trailing" id="ZUi-nM-q4j"/>
+                <constraint firstItem="QKe-Wi-OJ2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cld-Rg-6JP"/>
+                <constraint firstItem="8we-KZ-qon" firstAttribute="trailing" secondItem="7d0-jQ-IZ4" secondAttribute="trailing" id="dnz-Os-Eyu"/>
+                <constraint firstItem="8we-KZ-qon" firstAttribute="trailing" secondItem="QKe-Wi-OJ2" secondAttribute="trailing" id="mdj-HY-VTZ"/>
+                <constraint firstItem="7d0-jQ-IZ4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="538" id="rBS-15-cMe"/>
+                <constraint firstItem="7d0-jQ-IZ4" firstAttribute="bottom" secondItem="QKe-Wi-OJ2" secondAttribute="bottom" id="scm-c8-dS6"/>
+                <constraint firstAttribute="trailing" secondItem="QKe-Wi-OJ2" secondAttribute="trailing" id="sjn-mi-UEL"/>
+                <constraint firstItem="wnr-ND-3RQ" firstAttribute="top" secondItem="8we-KZ-qon" secondAttribute="bottom" id="zje-jY-VnL"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

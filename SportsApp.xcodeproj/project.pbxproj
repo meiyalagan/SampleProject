@@ -19,6 +19,14 @@
 		0310D2601C73252D00420462 /* SliderCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D25E1C73252D00420462 /* SliderCustomView.m */; };
 		0310D2611C73252D00420462 /* SliderCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0310D25F1C73252D00420462 /* SliderCustomView.xib */; };
 		0310D2641C7325A600420462 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D2631C7325A600420462 /* ContainerViewController.m */; };
+		C30DB6081C732B2C00E0D53C /* DetailsCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C30DB6071C732B2C00E0D53C /* DetailsCustomView.m */; };
+		C30DB60B1C732B4E00E0D53C /* DetailsRightCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C30DB60A1C732B4E00E0D53C /* DetailsRightCustomView.m */; };
+		C30DB60D1C732B9400E0D53C /* DetailsCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C30DB60C1C732B9400E0D53C /* DetailsCustomView.xib */; };
+		C30DB60F1C732BA000E0D53C /* DetailsRightCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C30DB60E1C732BA000E0D53C /* DetailsRightCustomView.xib */; };
+		C30DB6141C732CFA00E0D53C /* GroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30DB6131C732CFA00E0D53C /* GroundViewController.m */; };
+		C30DB6181C732D6600E0D53C /* NetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30DB6161C732D6600E0D53C /* NetViewController.m */; };
+		C30DB6191C732D6600E0D53C /* NetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C30DB6171C732D6600E0D53C /* NetViewController.xib */; };
+		C30DB61B1C732DA000E0D53C /* GroundViewControllerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30DB61A1C732DA000E0D53C /* GroundViewControllerStoryboard.storyboard */; };
 		F242FDD21C6E21300060DF31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD11C6E21300060DF31 /* main.m */; };
 		F242FDD51C6E21300060DF31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD41C6E21300060DF31 /* AppDelegate.m */; };
 		F242FDD81C6E21300060DF31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD71C6E21300060DF31 /* ViewController.m */; };
@@ -66,6 +74,18 @@
 		0310D25F1C73252D00420462 /* SliderCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderCustomView.xib; sourceTree = "<group>"; };
 		0310D2621C7325A600420462 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
 		0310D2631C7325A600420462 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		C30DB6061C732B2C00E0D53C /* DetailsCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsCustomView.h; sourceTree = "<group>"; };
+		C30DB6071C732B2C00E0D53C /* DetailsCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsCustomView.m; sourceTree = "<group>"; };
+		C30DB6091C732B4E00E0D53C /* DetailsRightCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsRightCustomView.h; sourceTree = "<group>"; };
+		C30DB60A1C732B4E00E0D53C /* DetailsRightCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsRightCustomView.m; sourceTree = "<group>"; };
+		C30DB60C1C732B9400E0D53C /* DetailsCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsCustomView.xib; sourceTree = "<group>"; };
+		C30DB60E1C732BA000E0D53C /* DetailsRightCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsRightCustomView.xib; sourceTree = "<group>"; };
+		C30DB6121C732CFA00E0D53C /* GroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundViewController.h; sourceTree = "<group>"; };
+		C30DB6131C732CFA00E0D53C /* GroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroundViewController.m; sourceTree = "<group>"; };
+		C30DB6151C732D6600E0D53C /* NetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetViewController.h; sourceTree = "<group>"; };
+		C30DB6161C732D6600E0D53C /* NetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetViewController.m; sourceTree = "<group>"; };
+		C30DB6171C732D6600E0D53C /* NetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetViewController.xib; sourceTree = "<group>"; };
+		C30DB61A1C732DA000E0D53C /* GroundViewControllerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GroundViewControllerStoryboard.storyboard; sourceTree = "<group>"; };
 		F242FDCD1C6E212F0060DF31 /* SportsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F242FDD11C6E21300060DF31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F242FDD31C6E21300060DF31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +138,8 @@
 		0310D2391C7324C400420462 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C30DB6101C732C2D00E0D53C /* GroundVC */,
+				C30DB6111C732C2D00E0D53C /* NetVC */,
 				0310D23A1C7324C400420462 /* ContainerVC */,
 				0310D23D1C7324C400420462 /* LoginVC */,
 				0310D2401C7324C400420462 /* MatchScheduleVC */,
@@ -204,6 +226,8 @@
 		0310D25B1C73252D00420462 /* CustomUIView */ = {
 			isa = PBXGroup;
 			children = (
+				C30DB6041C732B1200E0D53C /* DetailsCustomView */,
+				C30DB6051C732B1200E0D53C /* DetailsRightCustomView */,
 				0310D25C1C73252D00420462 /* SliderCustomView */,
 			);
 			path = CustomUIView;
@@ -217,6 +241,46 @@
 				0310D25F1C73252D00420462 /* SliderCustomView.xib */,
 			);
 			path = SliderCustomView;
+			sourceTree = "<group>";
+		};
+		C30DB6041C732B1200E0D53C /* DetailsCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				C30DB6061C732B2C00E0D53C /* DetailsCustomView.h */,
+				C30DB6071C732B2C00E0D53C /* DetailsCustomView.m */,
+				C30DB60C1C732B9400E0D53C /* DetailsCustomView.xib */,
+			);
+			path = DetailsCustomView;
+			sourceTree = "<group>";
+		};
+		C30DB6051C732B1200E0D53C /* DetailsRightCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				C30DB6091C732B4E00E0D53C /* DetailsRightCustomView.h */,
+				C30DB60A1C732B4E00E0D53C /* DetailsRightCustomView.m */,
+				C30DB60E1C732BA000E0D53C /* DetailsRightCustomView.xib */,
+			);
+			path = DetailsRightCustomView;
+			sourceTree = "<group>";
+		};
+		C30DB6101C732C2D00E0D53C /* GroundVC */ = {
+			isa = PBXGroup;
+			children = (
+				C30DB6121C732CFA00E0D53C /* GroundViewController.h */,
+				C30DB6131C732CFA00E0D53C /* GroundViewController.m */,
+				C30DB61A1C732DA000E0D53C /* GroundViewControllerStoryboard.storyboard */,
+			);
+			path = GroundVC;
+			sourceTree = "<group>";
+		};
+		C30DB6111C732C2D00E0D53C /* NetVC */ = {
+			isa = PBXGroup;
+			children = (
+				C30DB6151C732D6600E0D53C /* NetViewController.h */,
+				C30DB6161C732D6600E0D53C /* NetViewController.m */,
+				C30DB6171C732D6600E0D53C /* NetViewController.xib */,
+			);
+			path = NetVC;
 			sourceTree = "<group>";
 		};
 		F242FDC41C6E212F0060DF31 = {
@@ -387,8 +451,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30DB60D1C732B9400E0D53C /* DetailsCustomView.xib in Resources */,
+				C30DB60F1C732BA000E0D53C /* DetailsRightCustomView.xib in Resources */,
 				0310D2611C73252D00420462 /* SliderCustomView.xib in Resources */,
 				0310D24F1C7324C400420462 /* Organizer.storyboard in Resources */,
+				C30DB6191C732D6600E0D53C /* NetViewController.xib in Resources */,
+				C30DB61B1C732DA000E0D53C /* GroundViewControllerStoryboard.storyboard in Resources */,
 				0304D2EA1C72FA3700B1CBAA /* Main.storyboard in Resources */,
 				0310D24E1C7324C400420462 /* MatchScheduleViewController.xib in Resources */,
 				F242FDE01C6E21300060DF31 /* Assets.xcassets in Resources */,
@@ -420,12 +488,16 @@
 				0310D2591C7324FB00420462 /* EmptySegue.m in Sources */,
 				0310D2641C7325A600420462 /* ContainerViewController.m in Sources */,
 				0310D24D1C7324C400420462 /* MatchScheduleViewController.m in Sources */,
+				C30DB6181C732D6600E0D53C /* NetViewController.m in Sources */,
 				F242FDD51C6E21300060DF31 /* AppDelegate.m in Sources */,
 				0310D24C1C7324C400420462 /* LoginViewController.m in Sources */,
+				C30DB6081C732B2C00E0D53C /* DetailsCustomView.m in Sources */,
+				C30DB6141C732CFA00E0D53C /* GroundViewController.m in Sources */,
 				0310D2501C7324C400420462 /* OrganizerViewController.m in Sources */,
 				F242FDDE1C6E21300060DF31 /* SportsApp.xcdatamodeld in Sources */,
 				F242FDD21C6E21300060DF31 /* main.m in Sources */,
 				0310D25A1C7324FB00420462 /* OrganizerObjectsClass.m in Sources */,
+				C30DB60B1C732B4E00E0D53C /* DetailsRightCustomView.m in Sources */,
 				0310D2601C73252D00420462 /* SliderCustomView.m in Sources */,
 				0310D2511C7324C400420462 /* SignUpViewController.m in Sources */,
 			);
