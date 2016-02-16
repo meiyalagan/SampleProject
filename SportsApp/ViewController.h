@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SliderCustomView.h"
 @interface ViewController : UIViewController
 {
     NSString *sample;

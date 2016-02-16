@@ -1,13 +1,16 @@
 //
 //  ContainerViewController.h
-//  SportsApp
+//  EmbeddedSwapping
 //
-//  Created by sarathkumar s on 16/02/16.
-//
+//  Created by Michael Luton on 11/13/12.
+//  Copyright (c) 2012 Sandmoose Software. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
+
 @interface ContainerViewController : UIViewController
+
+- (void)swapViewControllers;
 
 @end

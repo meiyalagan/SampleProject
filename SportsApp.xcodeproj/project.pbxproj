@@ -8,9 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0304D2EA1C72FA3700B1CBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0304D2E91C72FA3700B1CBAA /* Main.storyboard */; };
-		C30DB5F71C72EE1300E0D53C /* ViewController in Resources */ = {isa = PBXBuildFile; fileRef = C30DB5F61C72EE1300E0D53C /* ViewController */; };
-		C30DB5FB1C72EE3000E0D53C /* CustomUIView in Resources */ = {isa = PBXBuildFile; fileRef = C30DB5F81C72EE3000E0D53C /* CustomUIView */; };
-		C30DB5FC1C72EE3000E0D53C /* ModelClasses in Resources */ = {isa = PBXBuildFile; fileRef = C30DB5F91C72EE3000E0D53C /* ModelClasses */; };
+		0310D24C1C7324C400420462 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D23F1C7324C400420462 /* LoginViewController.m */; };
+		0310D24D1C7324C400420462 /* MatchScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D2421C7324C400420462 /* MatchScheduleViewController.m */; };
+		0310D24E1C7324C400420462 /* MatchScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0310D2431C7324C400420462 /* MatchScheduleViewController.xib */; };
+		0310D24F1C7324C400420462 /* Organizer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0310D2451C7324C400420462 /* Organizer.storyboard */; };
+		0310D2501C7324C400420462 /* OrganizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D2471C7324C400420462 /* OrganizerViewController.m */; };
+		0310D2511C7324C400420462 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D24A1C7324C400420462 /* SignUpViewController.m */; };
+		0310D2591C7324FB00420462 /* EmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D2551C7324FB00420462 /* EmptySegue.m */; };
+		0310D25A1C7324FB00420462 /* OrganizerObjectsClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D2581C7324FB00420462 /* OrganizerObjectsClass.m */; };
+		0310D2601C73252D00420462 /* SliderCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D25E1C73252D00420462 /* SliderCustomView.m */; };
+		0310D2611C73252D00420462 /* SliderCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0310D25F1C73252D00420462 /* SliderCustomView.xib */; };
+		0310D2641C7325A600420462 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D2631C7325A600420462 /* ContainerViewController.m */; };
 		F242FDD21C6E21300060DF31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD11C6E21300060DF31 /* main.m */; };
 		F242FDD51C6E21300060DF31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD41C6E21300060DF31 /* AppDelegate.m */; };
 		F242FDD81C6E21300060DF31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD71C6E21300060DF31 /* ViewController.m */; };
@@ -39,9 +47,25 @@
 
 /* Begin PBXFileReference section */
 		0304D2E91C72FA3700B1CBAA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		C30DB5F61C72EE1300E0D53C /* ViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewController; sourceTree = "<group>"; };
-		C30DB5F81C72EE3000E0D53C /* CustomUIView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomUIView; sourceTree = "<group>"; };
-		C30DB5F91C72EE3000E0D53C /* ModelClasses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ModelClasses; sourceTree = "<group>"; };
+		0310D23E1C7324C400420462 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0310D23F1C7324C400420462 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0310D2411C7324C400420462 /* MatchScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchScheduleViewController.h; sourceTree = "<group>"; };
+		0310D2421C7324C400420462 /* MatchScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchScheduleViewController.m; sourceTree = "<group>"; };
+		0310D2431C7324C400420462 /* MatchScheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatchScheduleViewController.xib; sourceTree = "<group>"; };
+		0310D2451C7324C400420462 /* Organizer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Organizer.storyboard; sourceTree = "<group>"; };
+		0310D2461C7324C400420462 /* OrganizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizerViewController.h; sourceTree = "<group>"; };
+		0310D2471C7324C400420462 /* OrganizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganizerViewController.m; sourceTree = "<group>"; };
+		0310D2491C7324C400420462 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		0310D24A1C7324C400420462 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		0310D2541C7324FB00420462 /* EmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptySegue.h; sourceTree = "<group>"; };
+		0310D2551C7324FB00420462 /* EmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptySegue.m; sourceTree = "<group>"; };
+		0310D2571C7324FB00420462 /* OrganizerObjectsClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizerObjectsClass.h; sourceTree = "<group>"; };
+		0310D2581C7324FB00420462 /* OrganizerObjectsClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganizerObjectsClass.m; sourceTree = "<group>"; };
+		0310D25D1C73252D00420462 /* SliderCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderCustomView.h; sourceTree = "<group>"; };
+		0310D25E1C73252D00420462 /* SliderCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderCustomView.m; sourceTree = "<group>"; };
+		0310D25F1C73252D00420462 /* SliderCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderCustomView.xib; sourceTree = "<group>"; };
+		0310D2621C7325A600420462 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		0310D2631C7325A600420462 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
 		F242FDCD1C6E212F0060DF31 /* SportsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F242FDD11C6E21300060DF31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F242FDD31C6E21300060DF31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +115,110 @@
 			path = Base.lproj;
 			sourceTree = "<group>";
 		};
+		0310D2391C7324C400420462 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0310D23A1C7324C400420462 /* ContainerVC */,
+				0310D23D1C7324C400420462 /* LoginVC */,
+				0310D2401C7324C400420462 /* MatchScheduleVC */,
+				0310D2441C7324C400420462 /* Organizer */,
+				0310D2481C7324C400420462 /* SignUpVC */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0310D23A1C7324C400420462 /* ContainerVC */ = {
+			isa = PBXGroup;
+			children = (
+				0310D2621C7325A600420462 /* ContainerViewController.h */,
+				0310D2631C7325A600420462 /* ContainerViewController.m */,
+			);
+			path = ContainerVC;
+			sourceTree = "<group>";
+		};
+		0310D23D1C7324C400420462 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				0310D23E1C7324C400420462 /* LoginViewController.h */,
+				0310D23F1C7324C400420462 /* LoginViewController.m */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		0310D2401C7324C400420462 /* MatchScheduleVC */ = {
+			isa = PBXGroup;
+			children = (
+				0310D2411C7324C400420462 /* MatchScheduleViewController.h */,
+				0310D2421C7324C400420462 /* MatchScheduleViewController.m */,
+				0310D2431C7324C400420462 /* MatchScheduleViewController.xib */,
+			);
+			path = MatchScheduleVC;
+			sourceTree = "<group>";
+		};
+		0310D2441C7324C400420462 /* Organizer */ = {
+			isa = PBXGroup;
+			children = (
+				0310D2451C7324C400420462 /* Organizer.storyboard */,
+				0310D2461C7324C400420462 /* OrganizerViewController.h */,
+				0310D2471C7324C400420462 /* OrganizerViewController.m */,
+			);
+			path = Organizer;
+			sourceTree = "<group>";
+		};
+		0310D2481C7324C400420462 /* SignUpVC */ = {
+			isa = PBXGroup;
+			children = (
+				0310D2491C7324C400420462 /* SignUpViewController.h */,
+				0310D24A1C7324C400420462 /* SignUpViewController.m */,
+			);
+			path = SignUpVC;
+			sourceTree = "<group>";
+		};
+		0310D2521C7324FB00420462 /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				0310D2531C7324FB00420462 /* CustomSegue */,
+				0310D2561C7324FB00420462 /* OrganizerMC */,
+			);
+			path = ModelClasses;
+			sourceTree = "<group>";
+		};
+		0310D2531C7324FB00420462 /* CustomSegue */ = {
+			isa = PBXGroup;
+			children = (
+				0310D2541C7324FB00420462 /* EmptySegue.h */,
+				0310D2551C7324FB00420462 /* EmptySegue.m */,
+			);
+			path = CustomSegue;
+			sourceTree = "<group>";
+		};
+		0310D2561C7324FB00420462 /* OrganizerMC */ = {
+			isa = PBXGroup;
+			children = (
+				0310D2571C7324FB00420462 /* OrganizerObjectsClass.h */,
+				0310D2581C7324FB00420462 /* OrganizerObjectsClass.m */,
+			);
+			path = OrganizerMC;
+			sourceTree = "<group>";
+		};
+		0310D25B1C73252D00420462 /* CustomUIView */ = {
+			isa = PBXGroup;
+			children = (
+				0310D25C1C73252D00420462 /* SliderCustomView */,
+			);
+			path = CustomUIView;
+			sourceTree = "<group>";
+		};
+		0310D25C1C73252D00420462 /* SliderCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				0310D25D1C73252D00420462 /* SliderCustomView.h */,
+				0310D25E1C73252D00420462 /* SliderCustomView.m */,
+				0310D25F1C73252D00420462 /* SliderCustomView.xib */,
+			);
+			path = SliderCustomView;
+			sourceTree = "<group>";
+		};
 		F242FDC41C6E212F0060DF31 = {
 			isa = PBXGroup;
 			children = (
@@ -114,10 +242,10 @@
 		F242FDCF1C6E21300060DF31 /* SportsApp */ = {
 			isa = PBXGroup;
 			children = (
+				0310D25B1C73252D00420462 /* CustomUIView */,
+				0310D2521C7324FB00420462 /* ModelClasses */,
+				0310D2391C7324C400420462 /* ViewController */,
 				0304D2E91C72FA3700B1CBAA /* Main.storyboard */,
-				C30DB5F81C72EE3000E0D53C /* CustomUIView */,
-				C30DB5F91C72EE3000E0D53C /* ModelClasses */,
-				C30DB5F61C72EE1300E0D53C /* ViewController */,
 				F242FDD31C6E21300060DF31 /* AppDelegate.h */,
 				F242FDD41C6E21300060DF31 /* AppDelegate.m */,
 				F242FDD61C6E21300060DF31 /* ViewController.h */,
@@ -259,11 +387,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C30DB5FC1C72EE3000E0D53C /* ModelClasses in Resources */,
-				C30DB5F71C72EE1300E0D53C /* ViewController in Resources */,
+				0310D2611C73252D00420462 /* SliderCustomView.xib in Resources */,
+				0310D24F1C7324C400420462 /* Organizer.storyboard in Resources */,
 				0304D2EA1C72FA3700B1CBAA /* Main.storyboard in Resources */,
+				0310D24E1C7324C400420462 /* MatchScheduleViewController.xib in Resources */,
 				F242FDE01C6E21300060DF31 /* Assets.xcassets in Resources */,
-				C30DB5FB1C72EE3000E0D53C /* CustomUIView in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,9 +417,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F242FDD81C6E21300060DF31 /* ViewController.m in Sources */,
+				0310D2591C7324FB00420462 /* EmptySegue.m in Sources */,
+				0310D2641C7325A600420462 /* ContainerViewController.m in Sources */,
+				0310D24D1C7324C400420462 /* MatchScheduleViewController.m in Sources */,
 				F242FDD51C6E21300060DF31 /* AppDelegate.m in Sources */,
+				0310D24C1C7324C400420462 /* LoginViewController.m in Sources */,
+				0310D2501C7324C400420462 /* OrganizerViewController.m in Sources */,
 				F242FDDE1C6E21300060DF31 /* SportsApp.xcdatamodeld in Sources */,
 				F242FDD21C6E21300060DF31 /* main.m in Sources */,
+				0310D25A1C7324FB00420462 /* OrganizerObjectsClass.m in Sources */,
+				0310D2601C73252D00420462 /* SliderCustomView.m in Sources */,
+				0310D2511C7324C400420462 /* SignUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
