@@ -12,6 +12,7 @@
 {
     NSString *sample;
 }
+@property (weak, nonatomic) IBOutlet UISegmentedControl *Segment;
 
 @end
 

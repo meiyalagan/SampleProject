@@ -10,7 +10,6 @@
 		C30DB5F71C72EE1300E0D53C /* ViewController in Resources */ = {isa = PBXBuildFile; fileRef = C30DB5F61C72EE1300E0D53C /* ViewController */; };
 		C30DB5FB1C72EE3000E0D53C /* CustomUIView in Resources */ = {isa = PBXBuildFile; fileRef = C30DB5F81C72EE3000E0D53C /* CustomUIView */; };
 		C30DB5FC1C72EE3000E0D53C /* ModelClasses in Resources */ = {isa = PBXBuildFile; fileRef = C30DB5F91C72EE3000E0D53C /* ModelClasses */; };
-		C30DB5FD1C72EE3000E0D53C /* ServiceCall Classes in Resources */ = {isa = PBXBuildFile; fileRef = C30DB5FA1C72EE3000E0D53C /* ServiceCall Classes */; };
 		F242FDD21C6E21300060DF31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD11C6E21300060DF31 /* main.m */; };
 		F242FDD51C6E21300060DF31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD41C6E21300060DF31 /* AppDelegate.m */; };
 		F242FDD81C6E21300060DF31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD71C6E21300060DF31 /* ViewController.m */; };
@@ -43,7 +42,6 @@
 		C30DB5F61C72EE1300E0D53C /* ViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewController; sourceTree = "<group>"; };
 		C30DB5F81C72EE3000E0D53C /* CustomUIView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomUIView; sourceTree = "<group>"; };
 		C30DB5F91C72EE3000E0D53C /* ModelClasses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ModelClasses; sourceTree = "<group>"; };
-		C30DB5FA1C72EE3000E0D53C /* ServiceCall Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ServiceCall Classes"; sourceTree = "<group>"; };
 		F242FDCD1C6E212F0060DF31 /* SportsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F242FDD11C6E21300060DF31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F242FDD31C6E21300060DF31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 			children = (
 				C30DB5F81C72EE3000E0D53C /* CustomUIView */,
 				C30DB5F91C72EE3000E0D53C /* ModelClasses */,
-				C30DB5FA1C72EE3000E0D53C /* ServiceCall Classes */,
 				C30DB5F61C72EE1300E0D53C /* ViewController */,
 				F242FDD31C6E21300060DF31 /* AppDelegate.h */,
 				F242FDD41C6E21300060DF31 /* AppDelegate.m */,
@@ -258,7 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F242FDE31C6E21300060DF31 /* LaunchScreen.storyboard in Resources */,
-				C30DB5FD1C72EE3000E0D53C /* ServiceCall Classes in Resources */,
 				C30DB5FC1C72EE3000E0D53C /* ModelClasses in Resources */,
 				C30DB5F71C72EE1300E0D53C /* ViewController in Resources */,
 				F242FDE01C6E21300060DF31 /* Assets.xcassets in Resources */,
