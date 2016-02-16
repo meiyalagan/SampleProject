@@ -9,7 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface LoginViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UISegmentedControl *Segment;
-- (IBAction)Segment:(id)sender;
 
 @end

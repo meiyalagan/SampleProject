@@ -7,12 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
 @interface ViewController : UIViewController
 {
     NSString *sample;
 }
-@property (weak, nonatomic) IBOutlet UISegmentedControl *Segment;
 
 @end
 
