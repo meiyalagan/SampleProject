@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0304D2EA1C72FA3700B1CBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0304D2E91C72FA3700B1CBAA /* Main.storyboard */; };
 		C30DB5F71C72EE1300E0D53C /* ViewController in Resources */ = {isa = PBXBuildFile; fileRef = C30DB5F61C72EE1300E0D53C /* ViewController */; };
 		C30DB5FB1C72EE3000E0D53C /* CustomUIView in Resources */ = {isa = PBXBuildFile; fileRef = C30DB5F81C72EE3000E0D53C /* CustomUIView */; };
 		C30DB5FC1C72EE3000E0D53C /* ModelClasses in Resources */ = {isa = PBXBuildFile; fileRef = C30DB5F91C72EE3000E0D53C /* ModelClasses */; };
 		F242FDD21C6E21300060DF31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD11C6E21300060DF31 /* main.m */; };
 		F242FDD51C6E21300060DF31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD41C6E21300060DF31 /* AppDelegate.m */; };
 		F242FDD81C6E21300060DF31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDD71C6E21300060DF31 /* ViewController.m */; };
-		F242FDDB1C6E21300060DF31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F242FDD91C6E21300060DF31 /* Main.storyboard */; };
 		F242FDDE1C6E21300060DF31 /* SportsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F242FDDC1C6E21300060DF31 /* SportsApp.xcdatamodeld */; };
 		F242FDE01C6E21300060DF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F242FDDF1C6E21300060DF31 /* Assets.xcassets */; };
-		F242FDE31C6E21300060DF31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F242FDE11C6E21300060DF31 /* LaunchScreen.storyboard */; };
 		F242FDEE1C6E21300060DF31 /* SportsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDED1C6E21300060DF31 /* SportsAppTests.m */; };
 		F242FDF91C6E21300060DF31 /* SportsAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F242FDF81C6E21300060DF31 /* SportsAppUITests.m */; };
 /* End PBXBuildFile section */
@@ -39,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0304D2E91C72FA3700B1CBAA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C30DB5F61C72EE1300E0D53C /* ViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewController; sourceTree = "<group>"; };
 		C30DB5F81C72EE3000E0D53C /* CustomUIView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomUIView; sourceTree = "<group>"; };
 		C30DB5F91C72EE3000E0D53C /* ModelClasses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ModelClasses; sourceTree = "<group>"; };
@@ -48,10 +48,8 @@
 		F242FDD41C6E21300060DF31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F242FDD61C6E21300060DF31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F242FDD71C6E21300060DF31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F242FDDA1C6E21300060DF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F242FDDD1C6E21300060DF31 /* SportsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportsApp.xcdatamodel; sourceTree = "<group>"; };
 		F242FDDF1C6E21300060DF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F242FDE21C6E21300060DF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F242FDE41C6E21300060DF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F242FDE91C6E21300060DF31 /* SportsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F242FDED1C6E21300060DF31 /* SportsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportsAppTests.m; sourceTree = "<group>"; };
@@ -86,6 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0304D2D71C72F89500B1CBAA /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
 		F242FDC41C6E212F0060DF31 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +114,7 @@
 		F242FDCF1C6E21300060DF31 /* SportsApp */ = {
 			isa = PBXGroup;
 			children = (
+				0304D2E91C72FA3700B1CBAA /* Main.storyboard */,
 				C30DB5F81C72EE3000E0D53C /* CustomUIView */,
 				C30DB5F91C72EE3000E0D53C /* ModelClasses */,
 				C30DB5F61C72EE1300E0D53C /* ViewController */,
@@ -116,9 +122,8 @@
 				F242FDD41C6E21300060DF31 /* AppDelegate.m */,
 				F242FDD61C6E21300060DF31 /* ViewController.h */,
 				F242FDD71C6E21300060DF31 /* ViewController.m */,
-				F242FDD91C6E21300060DF31 /* Main.storyboard */,
+				0304D2D71C72F89500B1CBAA /* Base.lproj */,
 				F242FDDF1C6E21300060DF31 /* Assets.xcassets */,
-				F242FDE11C6E21300060DF31 /* LaunchScreen.storyboard */,
 				F242FDE41C6E21300060DF31 /* Info.plist */,
 				F242FDDC1C6E21300060DF31 /* SportsApp.xcdatamodeld */,
 				F242FDD01C6E21300060DF31 /* Supporting Files */,
@@ -254,12 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F242FDE31C6E21300060DF31 /* LaunchScreen.storyboard in Resources */,
 				C30DB5FC1C72EE3000E0D53C /* ModelClasses in Resources */,
 				C30DB5F71C72EE1300E0D53C /* ViewController in Resources */,
+				0304D2EA1C72FA3700B1CBAA /* Main.storyboard in Resources */,
 				F242FDE01C6E21300060DF31 /* Assets.xcassets in Resources */,
 				C30DB5FB1C72EE3000E0D53C /* CustomUIView in Resources */,
-				F242FDDB1C6E21300060DF31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,25 +325,6 @@
 			targetProxy = F242FDF51C6E21300060DF31 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F242FDD91C6E21300060DF31 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F242FDDA1C6E21300060DF31 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F242FDE11C6E21300060DF31 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F242FDE21C6E21300060DF31 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F242FDFB1C6E21300060DF31 /* Debug */ = {
