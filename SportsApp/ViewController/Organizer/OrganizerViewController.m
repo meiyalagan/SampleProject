@@ -23,6 +23,18 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)selectDatePickerBtnAction:(id)sender {
+}
+- (IBAction)navigateBtnAction:(id)sender {
+}
+- (IBAction)videoBtnAction:(id)sender {
+}
+- (IBAction)facilitiesbtnAction:(id)sender {
+}
+- (IBAction)photoImgBtnAction:(id)sender {
+}
+- (IBAction)requestMakingBookBtnAction:(id)sender {
+}
 
 /*
 #pragma mark - Navigation
