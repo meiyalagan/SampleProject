@@ -2,15 +2,18 @@
 #import "ContainerViewController.h"
 #import "LoginViewController.h"
 #import "SignUpViewController.h"
-
+#import "ActivationCodeVC.h"
 #define SegueIdentifierFirst @"embedFirst"
 #define SegueIdentifierSecond @"embedSecond"
+#define SegueIdentifierThird @"embedThird"
 
 @interface ContainerViewController ()
 
 @property (strong, nonatomic) NSString *currentSegueIdentifier;
 @property (strong, nonatomic) LoginViewController *firstViewController;
 @property (strong, nonatomic) SignUpViewController *secondViewController;
+@property (strong, nonatomic) ActivationCodeVC *ThirdViewcontroller;
+
 @property (assign, nonatomic) BOOL transitionInProgress;
 
 @end
@@ -37,6 +40,9 @@
     }
     if ([segue.identifier isEqualToString:SegueIdentifierSecond]) {
         self.secondViewController = segue.destinationViewController;
+    }
+    if ([segue.identifier isEqualToString:SegueIdentifierThird]) {
+        self.ThirdViewcontroller = segue.destinationViewController;
     }
     // If we're going to the first view controller.
     if ([segue.identifier isEqualToString:SegueIdentifierFirst]) {
@@ -80,20 +86,23 @@
 
 - (void)swapViewControllers
 {
-  //  NSLog(@"%s", __PRETTY_FUNCTION__);
     if (self.transitionInProgress) {
         return;
     }
     self.transitionInProgress = YES;
     self.currentSegueIdentifier = ([self.currentSegueIdentifier isEqualToString:SegueIdentifierFirst]) ? SegueIdentifierSecond : SegueIdentifierFirst;
     self.currentSegueIdentifier =[[NSUserDefaults standardUserDefaults] objectForKey:@"Segue"];
-  //  NSLog(@"result:%@",self.currentSegueIdentifier);
+   NSLog(@"result:%@",self.currentSegueIdentifier);
     if (([self.currentSegueIdentifier isEqualToString:@"embedFirst"]) && self.firstViewController) {
         [self swapFromViewController:self.secondViewController toViewController:self.firstViewController];
         return;
     }
     if (([self.currentSegueIdentifier isEqualToString:@"embedSecond"]) && self.secondViewController) {
         [self swapFromViewController:self.firstViewController toViewController:self.secondViewController];
+        return;
+    }
+    if (([self.currentSegueIdentifier isEqualToString:@"embedThird"]) && self.ThirdViewcontroller) {
+        [self swapFromViewController:self.secondViewController toViewController:self.ThirdViewcontroller];
         return;
     }
     [self performSegueWithIdentifier:self.currentSegueIdentifier sender:nil];

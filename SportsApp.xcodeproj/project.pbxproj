@@ -20,6 +20,7 @@
 		0310D2611C73252D00420462 /* SliderCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0310D25F1C73252D00420462 /* SliderCustomView.xib */; };
 		0310D2641C7325A600420462 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D2631C7325A600420462 /* ContainerViewController.m */; };
 		0310D26D1C733D9400420462 /* GViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D26C1C733D9400420462 /* GViewController.m */; };
+		0310D2841C749AA900420462 /* ActivationCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310D2831C749AA900420462 /* ActivationCodeVC.m */; };
 		C30DB6081C732B2C00E0D53C /* DetailsCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C30DB6071C732B2C00E0D53C /* DetailsCustomView.m */; };
 		C30DB60B1C732B4E00E0D53C /* DetailsRightCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C30DB60A1C732B4E00E0D53C /* DetailsRightCustomView.m */; };
 		C30DB60D1C732B9400E0D53C /* DetailsCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C30DB60C1C732B9400E0D53C /* DetailsCustomView.xib */; };
@@ -77,6 +78,8 @@
 		0310D2631C7325A600420462 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
 		0310D26B1C733D9400420462 /* GViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GViewController.h; sourceTree = "<group>"; };
 		0310D26C1C733D9400420462 /* GViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GViewController.m; sourceTree = "<group>"; };
+		0310D2821C749AA900420462 /* ActivationCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivationCodeVC.h; sourceTree = "<group>"; };
+		0310D2831C749AA900420462 /* ActivationCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivationCodeVC.m; sourceTree = "<group>"; };
 		C30DB6061C732B2C00E0D53C /* DetailsCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsCustomView.h; sourceTree = "<group>"; };
 		C30DB6071C732B2C00E0D53C /* DetailsCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsCustomView.m; sourceTree = "<group>"; };
 		C30DB6091C732B4E00E0D53C /* DetailsRightCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsRightCustomView.h; sourceTree = "<group>"; };
@@ -141,6 +144,7 @@
 		0310D2391C7324C400420462 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0310D2811C749A7400420462 /* ActiVationCodeVC */,
 				0310D26E1C743D3A00420462 /* SplashVC */,
 				C30DB6101C732C2D00E0D53C /* GroundVC */,
 				C30DB6111C732C2D00E0D53C /* NetVC */,
@@ -254,6 +258,15 @@
 			children = (
 			);
 			name = SplashVC;
+			sourceTree = "<group>";
+		};
+		0310D2811C749A7400420462 /* ActiVationCodeVC */ = {
+			isa = PBXGroup;
+			children = (
+				0310D2821C749AA900420462 /* ActivationCodeVC.h */,
+				0310D2831C749AA900420462 /* ActivationCodeVC.m */,
+			);
+			name = ActiVationCodeVC;
 			sourceTree = "<group>";
 		};
 		C30DB6041C732B1200E0D53C /* DetailsCustomView */ = {
@@ -510,6 +523,7 @@
 				F242FDDE1C6E21300060DF31 /* SportsApp.xcdatamodeld in Sources */,
 				F242FDD21C6E21300060DF31 /* main.m in Sources */,
 				0310D25A1C7324FB00420462 /* OrganizerObjectsClass.m in Sources */,
+				0310D2841C749AA900420462 /* ActivationCodeVC.m in Sources */,
 				C30DB60B1C732B4E00E0D53C /* DetailsRightCustomView.m in Sources */,
 				0310D2601C73252D00420462 /* SliderCustomView.m in Sources */,
 				0310D26D1C733D9400420462 /* GViewController.m in Sources */,

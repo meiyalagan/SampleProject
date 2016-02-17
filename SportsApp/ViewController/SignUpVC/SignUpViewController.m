@@ -7,8 +7,10 @@
 //
 
 #import "SignUpViewController.h"
-
+#import "ActivationCodeVC.h"
+#import "ContainerViewController.h"
 @interface SignUpViewController ()
+@property (nonatomic, weak) ContainerViewController *containerViewController;
 
 @end
 
@@ -19,10 +21,20 @@
     NSLog(@"SecondViewController - viewDidLoad");
 
 }
-
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
+{
+    //  NSLog(@"%s", __PRETTY_FUNCTION__);
+    return YES;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
 
 
+- (IBAction)Continue:(id)sender {
+    NSUserDefaults *defauts=[NSUserDefaults standardUserDefaults];
+    [defauts setObject:@"embedThird"forKey:@"Segue"];
+    [self.containerViewController swapViewControllers];
+
+}
 @end

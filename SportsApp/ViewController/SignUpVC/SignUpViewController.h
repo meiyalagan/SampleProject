@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SignUpViewController : UIViewController
+- (IBAction)Continue:(id)sender;
 
 @end
