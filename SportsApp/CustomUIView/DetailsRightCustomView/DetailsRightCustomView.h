@@ -15,5 +15,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *ratingLbl;
 @property (weak, nonatomic) IBOutlet UILabel *navigatelbl;
 @property (weak, nonatomic) IBOutlet UILabel *videoLbl;
+@property (strong, nonatomic) IBOutlet UIView *view;
 
 @end

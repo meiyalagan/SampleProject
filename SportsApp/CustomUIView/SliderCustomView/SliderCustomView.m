@@ -53,6 +53,18 @@ typedef NS_ENUM(NSInteger, KASlideShowSlideMode) {
     return self;
 }
 
+- (id)initWithCoder:(NSCoder *)aDecoder{
+    
+    self = [super initWithCoder:aDecoder];
+    
+    if (self) {
+        
+        [[[NSBundle mainBundle] loadNibNamed:@"SliderCustomView" owner:self options:nil] lastObject];
+        [self addSubview:self.view];
+    }
+    return self;
+}
+
 - (void)setFrame:(CGRect)frame {
     [super setFrame:frame];
     

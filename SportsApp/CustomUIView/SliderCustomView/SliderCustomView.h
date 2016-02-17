@@ -45,6 +45,7 @@ typedef NS_ENUM(NSUInteger, KASlideShowState) {
 
 @interface SliderCustomView : UIView
 
+@property (strong, nonatomic) IBOutlet UIView *view;
 @property (nonatomic, unsafe_unretained) IBOutlet id <KASlideShowDelegate> delegate;
 @property (nonatomic, unsafe_unretained) id<KASlideShowDataSource> dataSource;
 

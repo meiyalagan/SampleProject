@@ -17,6 +17,19 @@
     // Drawing code
 }
 */
+
+- (id)initWithCoder:(NSCoder *)aDecoder{
+    
+    self = [super initWithCoder:aDecoder];
+    
+    if (self) {
+        
+        [[[NSBundle mainBundle] loadNibNamed:@"DetailsRightCustomView" owner:self options:nil] lastObject];
+        [self addSubview:self.view];
+    }
+    return self;
+}
+
 - (IBAction)navigateBtnAction:(id)sender {
 }
 - (IBAction)videoBtnAction:(id)sender {
