@@ -7,6 +7,13 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MatchScheduleViewController">
             <connections>
+                <outlet property="dateLbl" destination="l9M-0T-QIB" id="bGA-He-ZY0"/>
+                <outlet property="groundNameLbl" destination="ubF-LD-5E1" id="6R4-me-c01"/>
+                <outlet property="overTextlbl" destination="S0W-l7-vkr" id="rnw-XM-Jjb"/>
+                <outlet property="payNowBtn" destination="9ek-LO-j2u" id="xQj-Oh-5Rx"/>
+                <outlet property="teamNameLbl1" destination="5j3-7n-1tk" id="Pxb-Dd-cRh"/>
+                <outlet property="teamNameLbl2" destination="jTm-Rp-Lte" id="UfM-Wo-eyX"/>
+                <outlet property="termsLbl" destination="oYO-pZ-6gz" id="6gQ-sm-UwT"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -43,6 +50,9 @@
                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
                                 </button>
+                                <connections>
+                                    <action selector="payNowBtnAction:" destination="-1" id="bQv-af-gTS"/>
+                                </connections>
                             </barButtonItem>
                         </navigationItem>
                     </items>
