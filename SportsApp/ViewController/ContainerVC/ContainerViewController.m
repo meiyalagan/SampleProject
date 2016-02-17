@@ -29,7 +29,6 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
   //  NSLog(@"%s", __PRETTY_FUNCTION__);
-
     // Instead of creating new VCs on each seque we want to hang on to existing
     // instances if we have it. Remove the second condition of the following
     // two if statements to get new VC instances instead.
@@ -82,7 +81,6 @@
 - (void)swapViewControllers
 {
   //  NSLog(@"%s", __PRETTY_FUNCTION__);
-
     if (self.transitionInProgress) {
         return;
     }
@@ -94,13 +92,10 @@
         [self swapFromViewController:self.secondViewController toViewController:self.firstViewController];
         return;
     }
-    
     if (([self.currentSegueIdentifier isEqualToString:@"embedSecond"]) && self.secondViewController) {
         [self swapFromViewController:self.firstViewController toViewController:self.secondViewController];
         return;
     }
-
     [self performSegueWithIdentifier:self.currentSegueIdentifier sender:nil];
 }
-
 @end

@@ -13,13 +13,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <containerView contentMode="scaleToFill" id="dlv-1M-gH8">
-                                <rect key="frame" x="0.0" y="130" width="320" height="438"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <connections>
-                                    <segue destination="nLt-in-NJs" kind="embed" identifier="embedContainer" id="Uyi-4a-JCX"/>
-                                </connections>
-                            </containerView>
                             <view contentMode="scaleToFill" id="oQC-mm-k6N">
                                 <rect key="frame" x="0.0" y="78" width="320" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -55,6 +48,13 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <containerView contentMode="scaleToFill" id="dlv-1M-gH8">
+                                <rect key="frame" x="0.0" y="130" width="320" height="438"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="nLt-in-NJs" kind="embed" identifier="embedContainer" id="Uyi-4a-JCX"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -115,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lPr-sf-doX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="330" y="244"/>
+            <point key="canvasLocation" x="332" y="77"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="USb-jU-06o">
